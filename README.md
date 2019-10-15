@@ -1,3 +1,4 @@
-# rez-pip
+rez-pip
+===
 
 Rez build configuration for pip.
