@@ -1,6 +1,6 @@
 name = "pip"
 
-version = "19.2.3"
+version = "20.1.1"
 
 authors = [
     "Chris Jerdonek",
