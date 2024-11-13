@@ -11,7 +11,8 @@ rez_set_archive(
     # we can build, using the following hierarchy:
     # "${REZ_REPO_PAYLOAD_DIR}/project_name/archive.what.ever"
     PIP_URL pip/pip-${REZ_BUILD_PROJECT_VERSION}.tar.gz
-    https://files.pythonhosted.org/packages/08/25/f204a6138dade2f6757b4ae99bc3994aac28a5602c97ddb2a35e0e22fbc4/pip-${REZ_BUILD_PROJECT_VERSION}.tar.gz
+    #https://files.pythonhosted.org/packages/08/25/f204a6138dade2f6757b4ae99bc3994aac28a5602c97ddb2a35e0e22fbc4/pip-${REZ_BUILD_PROJECT_VERSION}.tar.gz
+    https://files.pythonhosted.org/packages/f4/b1/b422acd212ad7eedddaf7981eee6e5de085154ff726459cf2da7c5a184c1/pip-24.3.1.tar.gz
 )
 
 # The environment variable REZ_TMP_PATH is meant to point to a location such as "/tmp/rez".

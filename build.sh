@@ -33,9 +33,12 @@ echo -e "\n"
 
 cd ${EXTRACT_PATH}
 
-python \
-    ${EXTRACT_PATH}/setup.py \
-    build
+# python3.7 \
+    # ${EXTRACT_PATH}/setup.py \
+    # build
+
+python3.7 -m build ${EXTRACT_PATH}
+
 
 echo -e "\n"
 echo -e "[BUILD] Finished building pip-${PIP_VERSION}!"

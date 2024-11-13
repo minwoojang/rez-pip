@@ -1,6 +1,6 @@
 name = "pip"
 
-version = "20.1.1"
+version = "24.3.1"
 
 authors = [
     "Chris Jerdonek",
@@ -14,11 +14,11 @@ description = \
 
 requires = [
     "cmake-3+",
-    "python-2.7+<3"
+    "python-3"
 ]
 
 variants = [
-    ["platform-linux"]
+    ["platform-linux", "arch-x86_64"]
 ]
 
 build_system = "cmake"

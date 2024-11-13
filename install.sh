@@ -34,7 +34,7 @@ echo -e "[INSTALL] Installing pip-${PIP_VERSION}..."
 echo -e "\n"
 
 # We copy the necessary files to the install directory.
-cp -R ${EXTRACT_PATH}/build/lib/* ${INSTALL_PATH}
+cp -R ${EXTRACT_PATH}/src/* ${INSTALL_PATH}
 
 echo -e "\n"
 echo -e "[INSTALL] Finished installing pip-${PIP_VERSION}!"
